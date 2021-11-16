@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#00000000" AllowsTransparency="True" WindowStyle="None" Topmost="True" WindowState="Maximized">
+    <Grid Background="#00000000" >
+        <Border BorderBrush="Black" BorderThickness="1" Background="#EEFFFFFF" Margin="348,180,335,170" Height="100" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="4499.467"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+    </Grid>
+</Window>
